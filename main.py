@@ -10,11 +10,3 @@ class main:
     def getNumber(self):
         return self.number
 
-class TestGetSum(unittest.TestCase):
-    def runTest(self) :
-        M = main(5)
-        Value = M.sum(5)
-        self.assertEquals(M.getNumber(),Value)
-
-
-unittest.main()
