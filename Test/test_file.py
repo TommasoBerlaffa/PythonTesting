@@ -1,7 +1,5 @@
-from multiprocessing.spawn import import_main_path
 import pytest
-
-from ..main.main import main
+import main
 
 def test_getSum():
     M = main(5)

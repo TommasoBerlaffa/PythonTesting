@@ -1,4 +1,3 @@
-
 class main:
     def __init__(self,number=0):
         self.number = number
@@ -8,4 +7,3 @@ class main:
 
     def getNumber(self):
         return self.number
-
