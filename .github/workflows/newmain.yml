@@ -32,4 +32,4 @@ jobs:
           hide-comment: false
           report-only-changed-files: false
           junitxml-path: ./pytest.xml
-          junitxml-title: Report Testing :
+          junitxml-title: Report Testing 
