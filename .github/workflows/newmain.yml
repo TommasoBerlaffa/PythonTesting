@@ -21,6 +21,3 @@ jobs:
           pip install pytest
           pip install pytest-cov
           pytest Test --doctest-modules --junitxml=junit/test-results.xml --cov=main --cov-report=xml --cov-report=html
-      - name: Badge Generation
-        run: |
-          coverage-badge -f -o coverage.svg
