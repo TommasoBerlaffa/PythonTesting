@@ -20,5 +20,4 @@ jobs:
         run: |
           pip install pytest
           pip install pytest-cov
-          pytest Test --cov Main 
-          coverage report -m
+          pytest Test --cov PythonTesting/Main 
