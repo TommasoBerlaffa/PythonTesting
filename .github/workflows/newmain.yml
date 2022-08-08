@@ -21,3 +21,4 @@ jobs:
           pip install pytest
           pip install pytest-cov
           pytest Test --cov Main 
+          coverage report -m
