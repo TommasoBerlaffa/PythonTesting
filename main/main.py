@@ -7,3 +7,6 @@ class main:
 
     def getNumber(self):
         return self.number
+
+    def getNegativaNumber(self):
+        return self.number *-1
