@@ -18,7 +18,6 @@ jobs:
           pip install -r requirements.txt
       - name: Test with pytest
         run: |
-          with : repoToken=${{ secrets.TOKEN }}
           pip install pytest
           pip install pytest-cov
-          pytest Test --doctest-modules --junitxml=junit/test-results.xml --cov=main --cov-report=xml --cov-report=html 
+          pytest Test --doctest-modules --junitxml=junit/test-results.xml --cov=main --cov-report=readme.md
