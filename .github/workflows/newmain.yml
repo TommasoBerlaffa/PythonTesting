@@ -20,4 +20,4 @@ jobs:
         run: |
           pip install pytest
           pip install pytest-cov
-          pytest Test --cov Main 
+          pytest Test --cov main 
