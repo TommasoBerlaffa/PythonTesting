@@ -1,3 +1,3 @@
 # PythonTesting
-[![Build](https://github.com/TommasoBerlaffa/PythonTesting/actions/workflows/newmain.yml/badge.svg)](https://github.com/TommasoBerlaffa/PythonTesting/actions/workflows/newmain.yml)
+[![Python Testing /w Report Generation](https://github.com/TommasoBerlaffa/PythonTesting/actions/workflows/newmain.yml/badge.svg)](https://github.com/TommasoBerlaffa/PythonTesting/actions/workflows/newmain.yml)
 
