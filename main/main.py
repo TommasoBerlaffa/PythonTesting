@@ -9,4 +9,6 @@ class main:
         return self.number
 
     def getNegativaNumber(self):
-        return self.number *-1
+        result = 5
+        result += self.number
+        return result^2
