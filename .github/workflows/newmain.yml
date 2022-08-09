@@ -1,4 +1,4 @@
-name: Python package
+name: Python Testing /w Report Generation
 
 on: [push]
 
@@ -24,8 +24,8 @@ jobs:
         uses: MishaKav/pytest-coverage-comment@main
         with:
           pytest-coverage-path: ./pytest-coverage.txt
-          title: My Coverage Report Title
-          badge-title: My Badge Coverage Title
+          title: Test Report
+          badge-title: Coverate Rate
           hide-badge: false
           hide-report: false
           create-new-comment: false
