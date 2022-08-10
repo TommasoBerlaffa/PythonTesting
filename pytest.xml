@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="1" failures="0" skipped="0" tests="2" time="0.244" timestamp="2022-08-10T14:14:06.905149" hostname="DESKTOP-OLB8G0G"><testcase classname="Test.test_file" name="test_getSum" time="0.002" /><testcase classname="pytest" name="internal" time="0.000"></testcase></testsuite></testsuites>
