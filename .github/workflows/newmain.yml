@@ -17,8 +17,7 @@ jobs:
           pip install -r requirements.txt
       - name: Test with pytest
         run: |
-          pytest --cov-append --junitxml=pytest.xml --cov-report=term-missing:skip-covered --cov=main Test/ | tee pytest-coverage.txt   - name: Pytest coverage comment
-        
+          pytest --cov-append --junitxml=pytest.xml --cov-report=term-missing:skip-covered --cov=main Test/        
       - name: Pytest coverage comment
         uses: MishaKav/pytest-coverage-comment@main
         with:
