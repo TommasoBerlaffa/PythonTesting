@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="1" failures="0" skipped="0" tests="2" time="0.244" timestamp="2022-08-10T14:14:06.905149" hostname="DESKTOP-OLB8G0G"><testcase classname="Test.test_file" name="test_getSum" time="0.002" /><testcase classname="pytest" name="internal" time="0.000"><error message="internal error">Traceback (most recent call last):
+  File "C:\Users\tomma\AppData\Local\Programs\Python\Python39\lib\site-packages\_pytest\main.py", line 268, in wrap_session
+    session.exitstatus = doit(config, session) or 0
+  File "C:\Users\tomma\AppData\Local\Programs\Python\Python39\lib\site-packages\_pytest\main.py", line 322, in _main
+    config.hook.pytest_runtestloop(session=session)
+  File "C:\Users\tomma\AppData\Local\Programs\Python\Python39\lib\site-packages\pluggy\_hooks.py", line 265, in __call__
+    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)
+  File "C:\Users\tomma\AppData\Local\Programs\Python\Python39\lib\site-packages\pluggy\_manager.py", line 80, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "C:\Users\tomma\AppData\Local\Programs\Python\Python39\lib\site-packages\pluggy\_callers.py", line 55, in _multicall
+    gen.send(outcome)
+  File "C:\Users\tomma\AppData\Local\Programs\Python\Python39\lib\site-packages\pytest_cov\plugin.py", line 294, in pytest_runtestloop
+    self.cov_controller.finish()
+  File "C:\Users\tomma\AppData\Local\Programs\Python\Python39\lib\site-packages\pytest_cov\engine.py", line 44, in ensure_topdir_wrapper
+    return meth(self, *args, **kwargs)
+  File "C:\Users\tomma\AppData\Local\Programs\Python\Python39\lib\site-packages\pytest_cov\engine.py", line 230, in finish
+    self.cov.stop()
+  File "C:\Users\tomma\AppData\Local\Programs\Python\Python39\lib\site-packages\coverage\control.py", line 748, in combine
+    combine_parallel_data(
+  File "C:\Users\tomma\AppData\Local\Programs\Python\Python39\lib\site-packages\coverage\data.py", line 132, in combine_parallel_data
+    data.update(new_data, aliases=aliases)
+  File "C:\Users\tomma\AppData\Local\Programs\Python\Python39\lib\site-packages\coverage\sqldata.py", line 606, in update
+    raise DataError("Can't combine arc data with line data")
+coverage.exceptions.DataError: Can't combine arc data with line data</error></testcase></testsuite></testsuites>
